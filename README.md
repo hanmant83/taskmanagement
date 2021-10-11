@@ -1,7 +1,9 @@
 Task Management
 
 Create one schema in postgreSQL with the name of Task
+
 Execute below script on task database
+
 CREATE TABLE task.task(
 taskid serial PRIMARY KEY,
 taskname varchar(100),
